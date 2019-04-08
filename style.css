@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.gamescreen {
+    width: 900px;
+    height: 600px;
+    background-color: rgb(168, 163, 163);
+    margin: 0 auto;
+}
+
+.gamescreen h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.gamescreen h3 {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    display: inline-block;
+}
+
+.player {
+    margin-left: 200px;
+}
+
+.cpu {
+    margin-right: 200px;
+    float: right;
+}
+
+.choice {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: inline-block;
+}
+
+.playerchoice {
+    margin-left: 60px;
+}
+
+.cpuchoice {
+    margin-right: 60px;
+    float: right;
+}
+
+.playerwins {
+    margin-left: 60px;
+}
+
+.cscore {
+    float: right;
+    margin-right: 95px;
+}
+
+.cpuwins {
+    margin-right: 80px;
+    float: right;
+}
+
+.pscore {
+    margin-left: 70px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    padding: 0;
+    border: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
